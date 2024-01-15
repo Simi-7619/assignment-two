@@ -1,0 +1,32 @@
+@media screen and (max-width:600px) {
+   
+   
+    section{
+        width:90%;
+        margin:50px auto 50px auto;}
+   
+    nav{
+    flex-direction: column;
+   } 
+   .menu{
+    display: none;
+   }
+    .banner{
+        background-image:linear-gradient(180deg, rgba(31, 31, 42, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-size:cover;
+        background-position: center;}
+
+.content-area{
+    padding:2.5rem;
+ 
+}
+  .banner-title{
+    font-size: 2.38rem;
+  }  
+.banner-desc{
+    width: auto;}
+
+ form input, form select, form button{
+    width: 100%;}
+
+}
