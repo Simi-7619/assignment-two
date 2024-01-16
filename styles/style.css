@@ -24,6 +24,10 @@ section{
     padding:15px 35px;
     border:0;
 }
+.btn-primary:hover{
+    transform: scale(1.10);
+    transition: transform .3s ease-in;
+}
 /* nav area style */
 header{
     width:80%;
@@ -342,6 +346,11 @@ place-self: center;
     padding:15px 25px;
     border: 0;
 }
+.deal-button:hover{
+    transform: scale(1.10);
+    transition: transform .3s ease-in;
+}
+
 
 .reward-area{
     border-radius: 16px;
