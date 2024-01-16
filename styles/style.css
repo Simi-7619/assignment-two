@@ -40,11 +40,6 @@ nav{
     width: 140px;
 }
 
-
-
-
-
-
 .logo{
     display: flex;
     align-items: center;
@@ -53,6 +48,9 @@ nav{
      color: #63AB45;
     font-size: 2.25rem;
     font-weight: 800;
+}
+.mobile-menu{
+    display: none;
 }
 
 .menu{
@@ -452,6 +450,17 @@ height: 1px;
         flex-direction: column;
     }
 }
-@media screen and (min-width:992px) and (max-width:1500px) {
-    
+
+@media screen and (min-width:1401px) and (max-width:1799px) {
+    .where-go-item{
+        margin-top:50px;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);}
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .where-go-item{
+        margin-top:50px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);}
 }

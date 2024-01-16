@@ -13,9 +13,9 @@
           font-size: 1.5rem;
         }
    /* nav area style */
-    nav{
-    flex-direction: column;
-   } 
+    /* nav{
+   
+   }  */
 
    .logo-icon{
     height: 55px;
@@ -26,6 +26,12 @@
    .menu{
     display: none;
    }
+   .mobile-menu{
+    display:inline;}
+    .mobile-menu img{
+      height: 30px;
+      width: 30px;
+    }
 
    /* banner style */
     .banner{
