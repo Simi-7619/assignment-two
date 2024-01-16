@@ -95,6 +95,15 @@
       .why-us-second-item{
         width: 100%;}
 
+/* reward section responsive */
+
+.reward-area{
+  width: 100%;
+  margin-top: 150px;}
+
+  .main-content, .main-content-two{
+    padding:20px;}
+
  /* simple perfect place section */
 
  .simple-perfect-place{
