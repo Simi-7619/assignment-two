@@ -35,6 +35,16 @@ nav{
     align-items: center;
 }
 
+.logo-icon{
+    height: 110px;
+    width: 140px;
+}
+
+
+
+
+
+
 .logo{
     display: flex;
     align-items: center;
@@ -152,12 +162,12 @@ section{
     margin-top: 50px;
     
 }
-.popular-container{
-    flex-basis: 100%
-}
 .popular-image{
-    flex-basis: 100%;
+    width: 100%;
 }
+/* .popular-image{
+    flex-basis: 100%;
+} */
 
 .popular-desc, .popular-list{
     color: rgba(19, 19, 24, 0.70);
@@ -188,23 +198,43 @@ section{
     grid-template-columns: repeat(2,1fr);
     gap:25px;
 }
-.collage-one img{
-    width: 100%;
+.first-line{
+    position: relative;
 }
+.center-title{
+    position:absolute;
+    top:35%;
+    left:40%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.center-title:hover{
+    background-color: #64ab4580;
+    transform: scale(1.25);
+    padding:15px;
+}
+
 .collage-two{
+    margin-top:25px;
     display: grid;
-    grid-template-columns: repeat(3,1fr 2fr 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     gap:25px;
+    height:280px;
 }
-.collage-two{
-    margin-top: 25px;
-    width: 100%;
+.second-line{
+    position: relative;
 }
+
 .collage-three{
+    margin-top:25px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 4fr 5fr;
     gap:25px;
-    height:285px;
+}
+.third-line{
+    position: relative;
 }
 /* why choose us section */
 .item-title{
@@ -259,6 +289,9 @@ place-self: center;
     line-height:1.5rem;   
     }
 
+.simple-image{
+    width: 100%;
+}
     /* newsletter section styles */
 
 .newsletter-area{
@@ -301,12 +334,37 @@ place-self: center;
 
 .img-area{
     width: 140%;
+    position: relative;
 }
 .img-area img{
     width:100%;
     height: 470px;
 }
+.badge-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.badge-title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -20px;
+}
 
+.badge{
+    border-radius: 16px;
+    background: #FF5400;
+    padding:8px;
+    position:absolute;
+    transform: rotate(-23.628deg);
+    right:1%;
+    bottom:13%;
+    width: 40%;
+    
+}
 
 /* footer area style */
 footer{
@@ -341,4 +399,28 @@ height: 1px;
 .copyright{
     text-align: center;
     margin-top: 50px;
+}
+
+
+@media screen and (min-width:1500px) {
+    .popular-container{
+        flex-basis: 90%;
+        padding-right:150px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1199px) {
+    .popular-tours{
+        display: flex; 
+        flex-direction: column; }
+
+        .popular-image{
+            width: 70%;
+        }
+}
+
+@media screen and (min-width:601px) and (max-width:1330px) {
+    .simple-perfect-place{
+        flex-direction: column;
+    }
 }

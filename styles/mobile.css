@@ -10,12 +10,19 @@
         margin:0px auto 0px auto;}
 
      .section-title{
-          font-size: 1.32rem;
+          font-size: 1.5rem;
         }
    /* nav area style */
     nav{
     flex-direction: column;
    } 
+
+   .logo-icon{
+    height: 55px;
+    width: 70px;
+}
+   .earth{
+      font-size: 1.5rem;}
    .menu{
     display: none;
    }
@@ -52,6 +59,17 @@
 }
 
 /* choose a destination section style */
+
+.collage-one, .collage-two, .collage-three{
+  grid-template-columns: 1fr;
+  height: auto;}
+
+  .center-title{
+    top:35%;
+    left:35%;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 /* why choose us section styles */
@@ -93,10 +111,15 @@
 .newsletter-button{
   width:95%;
 }
-
-
-
-
+.badge-text{
+  font-size: 18px;}
+.badge-title{
+  font-size: 20px;
+}
+.badge{
+  transform: rotate(-30.628deg);
+  width: 50%;
+}
 
 /* footer area responsiveness */
 
@@ -109,18 +132,9 @@ footer{
 hr{
   width: 80%;}
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width:300px) and (max-width:480px) {
+  .badge{
+    width: 60%;
 }
