@@ -1,32 +1,91 @@
 @media screen and (max-width:600px) {
    
+   /*global area styles  */
+   header{
+    width:90%;
+    margin:auto;}
    
-    section{
-        width:90%;
-        margin:50px auto 50px auto;}
-   
+   section{
+        width:90%;}
+
+     .section-title{
+          font-size: 1.32rem;
+        }
+   /* nav area style */
     nav{
     flex-direction: column;
    } 
    .menu{
     display: none;
    }
+
+   /* banner style */
     .banner{
         background-image:linear-gradient(180deg, rgba(31, 31, 42, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
         background-size:cover;
         background-position: center;}
 
 .content-area{
-    padding:2.5rem;
+    padding:1rem;
+    padding-bottom:1rem;
  
 }
   .banner-title{
-    font-size: 2.38rem;
+    font-size: 2rem;
   }  
 .banner-desc{
     width: auto;}
 
  form input, form select, form button{
     width: 100%;}
+
+/* popular tour section style */
+.popular-tours{
+    flex-direction: column;
+    gap:50px;
+    margin-top:0px;
+}
+.popular-desc, .popular-list{
+    width: auto;
+    line-height:2rem;
+}
+
+/* choose a destination section style */
+
+
+/* why choose us section styles */
+.destination-desc{
+  width: 100%;}
+
+  .why-us{
+    grid-template-columns: 1fr;
+  }
+  .item-desc{
+      width: 100%;}
+      .why-us-second-item{
+        width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -142,7 +142,7 @@ form button{
 }
 
 /* popular tour section styles */
-.section-one{
+section{
    border:1px solid white;
     
 }
@@ -157,4 +157,79 @@ form button{
     font-size: 1.125rem;
     font-weight: 400;
     width: 70%;
+    line-height:1.5rem;   
 }
+.popular-list{
+    line-height:2rem;}
+
+/* choose your destination section styles */
+.destination-content{
+    margin-top: 50px;
+}
+.destination-desc{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 70%;
+    margin:0 auto;
+    line-height:1.7rem;  
+}
+
+.collage-one{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+}
+.collage-one img{
+    width: 100%;
+}
+.collage-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr 2fr 1fr);
+    gap:25px;
+}
+.collage-two{
+    margin-top: 25px;
+    width: 100%;
+}
+.collage-three{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+    height:285px;
+}
+/* why choose us section */
+.item-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.item-desc{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 80%;
+}
+.why-us-items{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding:35px;
+place-self: center;
+}
+.why-us{
+    margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:25px; 
+}
+.why-us-second-item{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding:35px;
+    margin:25px  auto 50px auto;
+    }
