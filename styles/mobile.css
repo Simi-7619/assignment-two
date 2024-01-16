@@ -6,7 +6,8 @@
     margin:auto;}
    
    section{
-        width:90%;}
+        width:90%;
+        margin:0px auto 0px auto;}
 
      .section-title{
           font-size: 1.32rem;
@@ -65,14 +66,48 @@
       .why-us-second-item{
         width: 100%;}
 
+ /* simple perfect place section */
+
+ .simple-perfect-place{
+  flex-direction: column;
+  gap:30px;}
+
+  /* newsletter area responsive */
+  .newsletter-area{
+    flex-direction: column;}
+
+.newsletter-content{
+        padding:20px;}
+
+    .img-area{
+      width: auto;
+  }
+  .img-area img{
+    width:100%;
+}
+#newsletter{
+  text-align: center;}
+
+.newsletter-field{
+  width:95%;}
+.newsletter-button{
+  width:95%;
+}
 
 
 
 
 
+/* footer area responsiveness */
 
-
-
+footer{
+  margin-top: 50px;
+}
+#footer-text{
+  width:90%;
+}
+hr{
+  width: 80%;}
 
 
 
