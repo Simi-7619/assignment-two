@@ -302,22 +302,6 @@ place-self: center;
 
 
 /* REWARD SECTION */
-.icon-text{
-    color: #5A5A5D;
-    font-size: 16px;
-    font-weight: 400;
-}
-.icon-items{
-    display: flex;
-    align-items: center;
-    gap:10px;
-}
-.icon-area{
-    display: flex;
-    justify-content:flex-start;
-    gap:25px;
-}
-
 .deal-title{
     color: #19191e;
     font-size: 24px;
@@ -351,6 +335,20 @@ place-self: center;
     transition: transform .3s ease-in;
 }
 
+ul{
+    display: flex;
+    justify-content:flex-start;
+    gap:25px;
+    list-style: none;
+    margin-left: -40px;
+}
+li{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    justify-content: flex-start;
+   
+}
 
 .reward-area{
     border-radius: 16px;
